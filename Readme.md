@@ -107,12 +107,12 @@ aws lambda create-function --function-name listHotel --runtime python3.9
 ### Environment Variables
 
 ```env
-COGNITO_USER_POOL_ID=us-east-1_xxxxxxxxx
-COGNITO_CLIENT_ID=xxxxxxxxxxxxxxxxxxxxxxxxxx
-S3_BUCKET_NAME=hotel-platform-images
-DYNAMODB_TABLE_NAME=Hotels
-OPENSEARCH_ENDPOINT=https://search-hotels-xxxxx.us-east-1.es.amazonaws.com
-SNS_TOPIC_ARN=arn:aws:sns:us-east-1:123456789012:hotel-events
+COGNITO_USER_POOL_ID=
+COGNITO_CLIENT_ID=
+S3_BUCKET_NAME=
+DYNAMODB_TABLE_NAME=
+OPENSEARCH_ENDPOINT=
+SNS_TOPIC_ARN=
 ```
 
 ## 🔒 Security Features
